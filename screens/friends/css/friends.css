@@ -5,6 +5,7 @@
     align-items: center;
     padding: var(--horizontal-space);
     margin-bottom: 35px;
+    margin: 20px;
 }
 
 .screen-header__title {
@@ -68,11 +69,12 @@
 body {
     color: #2e363e;
     font-family: "Open Sans", sans-serif;
-    margin: 20px;
+    margin: 0px;
 }
 
 .friends-screen {
     padding: 0px var(--horizontal-space);
+    margin: 20px;
 }
 
 .friends-screen__channel {
