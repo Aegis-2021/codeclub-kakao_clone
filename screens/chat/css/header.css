@@ -30,6 +30,11 @@
   margin-right: 3%;
 }
 
+.header-left > span {
+  font-weight: 800;
+  font-size: 17px;
+}
+
 .header-icon {
   margin-left: 20px;
 }
