@@ -18,6 +18,10 @@
   margin-bottom: 15px;
 }
 
+.text-input > div > i {
+  color: #353866;
+}
+
 .text-input > div > input {
   height: 32px;
   width: calc(100% - 160px);
