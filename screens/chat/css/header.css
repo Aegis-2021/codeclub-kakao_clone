@@ -5,10 +5,15 @@
   align-items: center;
   justify-content: space-between;
   width: 100%;
+  height: 60px;
 }
 
 .header-color {
   background-color: #aaabd3;
+}
+
+.icon-color {
+  color: #353866;
 }
 
 .header-left {
@@ -23,6 +28,11 @@
   flex-direction: row;
   align-items: center;
   margin-right: 3%;
+}
+
+.header-left > span {
+  font-weight: 800;
+  font-size: 17px;
 }
 
 .header-icon {
