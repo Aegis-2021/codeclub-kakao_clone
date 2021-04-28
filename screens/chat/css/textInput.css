@@ -1,0 +1,30 @@
+.text-input {
+  position: absolute;
+  align-items: center;
+  bottom: 0;
+  width: 100%;
+  background-color: #aaabd3;
+}
+
+.text-input > div {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  width: 94%;
+  margin-left: 3%;
+  margin-right: 3%;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+.text-input > div > input {
+  height: 32px;
+  width: calc(100% - 160px);
+  background-color: inherit;
+  border: 0px;
+}
+
+.text-input > div > input:focus {
+  outline: none;
+}

@@ -6,36 +6,60 @@
   <link rel="stylesheet" href="/screens/shared/css/reset.css" />
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.8.2/css/all.min.css" />
   <link rel="stylesheet" href="../css/header.css" />
-  <link rel="stylesheet" href="../css/item.css" />
+  <link rel="stylesheet" href="../css/chat.css" />
+  <link rel="stylesheet" href="/screens/shared/css/navigation.css" />
 </head>
 <body>
   <div class="header">
     <div class="header-left">
-      <h3 class="header-text">채팅</h3>
-      <h3 class="header-text">오픈채팅</h3>
-    </div class="header-right">
+      <h3>채팅</h3>
+      <h3 class="margin-left">오픈채팅</h3>
+    </div>
     <div class="header-right">
-      <i class="header-icon fas fa-search"></i>,
+      <i class="header-icon fas fa-search"></i>
       <i class="header-icon fas fa-plus"></i>
       <i class="header-icon fas fa-cog"></i>
     </div>
   </div>
   <div class="chats">
     <div class="chat">
-      <img src="../images/aegis.png" alt="Aegis Logo">
-      <div>
-        <div class="chat-top">
-          <div class="chat-title">
-            <h5>코드클럽 톡방</h5>
-            <h5>20</h5>
+      <a href="../images/aegis.png">
+        <img src="../images/aegis.png" alt="Aegis Logo">
+      </a>
+      <a href="./chatRoom-CodeClub.html">
+        <div>
+          <div class="chat-top">
+            <div class="chat-title">
+              <h5>코드클럽 톡방</h5>
+              <h5>20</h5>
+            </div>
+            <h5>12:00</h5>
           </div>
-          <h5>12:00</h5>
+          <div class="chat-contents">
+            <h5>안녕하세요. Aegis 코드클럽 톡방입니다.</h5>
+          </div>
         </div>
-        <div class="chat-contents">
-          <h5>안녕하세요. Aegis 코드클럽 톡방입니다.</h5>
-        </div>
-      </div>
     </div>
+    </a>
   </div>
+  <nav class="nav">
+    <ul class="nav__list">
+      <li class="nav__btn">
+        <a class="nav__link" href="/screens/friends/html/friends.html"><i class="fas fa-user fa-2x"></i></a>
+      </li>
+      <li class="nav__btn">
+        <a class="nav__link" href="/screens/chat/html/chat.html">
+          <span class="nav__notification">1</span>
+          <i class="far fa-comment fa-2x"></i>
+        </a>
+      </li>
+      <li class="nav__btn">
+        <a class="nav__link" href="#"><i class="fas fa-hashtag fa-2x"></i></a>
+      </li>
+      <li class="nav__btn">
+        <a class="nav__link" href="#"><i class="fas fa-ellipsis-h fa-2x"></i></a>
+      </li>
+    </ul>
+  </nav>
 </body>
 </html>

@@ -4,7 +4,11 @@
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
-  width: 100vw;
+  width: 100%;
+}
+
+.header-color {
+  background-color: #aaabd3;
 }
 
 .header-left {
@@ -21,10 +25,10 @@
   margin-right: 3%;
 }
 
-.header-text {
-  margin-right: 20px;
+.header-icon {
+  margin-left: 20px;
 }
 
-.header-icon {
+.margin-left {
   margin-left: 20px;
 }

@@ -1,3 +1,10 @@
+a,
+a:hover,
+a:visited {
+  color: black;
+  text-decoration: none;
+}
+
 .chats {
   margin-top: 15px;
 }
@@ -17,20 +24,24 @@
   margin: 0px;
 }
 
-.chat > img {
+.chat > a:last-child {
+  width: 100%;
+}
+
+.chat > a:first-child > img {
   width: 50px;
   height: 50px;
   margin-right: 20px;
 }
 
-.chat > div {
+.chat > a:last-child > div {
   display: flex;
   flex-direction: column;
   width: 100%;
   height: 100%;
   margin: 0;
 }
-.chat > div > div:last-child {
+.chat > a:last-child > div > div:last-child {
   align-items: center;
 }
 
