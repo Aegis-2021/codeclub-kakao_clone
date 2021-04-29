@@ -78,7 +78,13 @@
 }
 
 .list-box > span:first-child {
+  font-weight: 600;
   margin-bottom: 10px;
+}
+
+.list-box > span:last-child {
+  font-weight: 400;
+  color: rgba(0, 0, 0, 0.8);
 }
 
 .contents-list-box > ul > li > img {
