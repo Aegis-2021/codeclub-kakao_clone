@@ -90,3 +90,7 @@
 .contents-list-box > ul > li > img {
   border-radius: 10px;
 }
+
+.end-margin {
+  margin-bottom: calc(63px + 16px);
+}
