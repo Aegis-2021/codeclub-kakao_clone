@@ -19,8 +19,8 @@ a:visited {
   margin-bottom: 25px;
 }
 
-.chat-title > h5,
-.chat-contents > h5 {
+.chat-title > span,
+.chat-contents > span {
   margin: 0px;
 }
 
@@ -64,13 +64,15 @@ a:visited {
   margin: 0;
 }
 
-.chat-title > h5:first-child {
+.chat-title > span:first-child {
+  font-weight: 700;
   margin: 0;
   margin-right: 10px;
 }
 
-.chat-contents > h5,
-.chat-title > h5:last-child,
-.chat-top > h5 {
+.chat-contents > span,
+.chat-title > span:last-child,
+.chat-top > span {
+  font-weight: 500;
   color: gray;
 }
