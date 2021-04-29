@@ -1,34 +1,92 @@
 <!DOCTYPE html>
 <html lang="kr">
-<head>
-  <meta charset="UTF-8" />
-  <title>Aegis</title>
-  <link rel="stylesheet" href="/screens/components/css/reset.css" />
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.8.2/css/all.min.css" />
-  <link rel="stylesheet" href="/screens/components/css/header.css" />
-  <link rel="stylesheet" href="../css/setting.css" />
-  <link rel="stylesheet" href="/screens/components/css/navigation.css" />
-</head>
-<body>
-  <div class="header header-color">
-    <div class="header-left">
+    <head>
+        <meta charset="UTF-8" />
+        <title>Aegis</title>
+        <link rel="stylesheet" href="/screens/components/css/reset.css" />
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.8.2/css/all.min.css"
+        />
+        <link rel="stylesheet" href="/screens/components/css/header.css" />
+        <link rel="stylesheet" href="../css/setting.css" />
+        <link rel="stylesheet" href="/screens/components/css/navigation.css" />
+    </head>
+    <body>
+        <div class="header header-color">
+            <div class="header-left">
+                <span>설정</span>
+            </div>
+            <div class="header-right">
+                <a href="#"
+                    ><i class="margin-left icon-color fas fa-search fa-lg"></i
+                ></a>
+            </div>
+        </div>
+        <main class="settings">
+            <section class="settings__sections">
+                <ul class="settings__list">
+                    <li class="settings__setting">
+                        <span class="settings__icon">
+                            <i class="fas fa-lock"></i>
+                        </span>
+                        <span class="settings__title"> Privacy </span>
+                    </li>
+                    <li class="settings__setting">
+                        <span class="settings__icon">
+                            <i class="far fa-bell"></i>
+                        </span>
+                        <span class="settings__title"> Notifications </span>
+                    </li>
+                    <li class="settings__setting">
+                        <span class="settings__icon">
+                            <i class="far fa-user"></i>
+                        </span>
+                        <span class="settings__title"> Friends </span>
+                    </li>
+                </ul>
+            </section>
 
-    </div>
-    <div class="header-right">
+            <section class="settings__sections">
+                <ul class="settings__list">
+                    <li class="settings__setting">
+                        <span class="settings__icon">
+                            <i class="fas fa-bullhorn"></i>
+                        </span>
+                        <span class="settings__title"> Notice </span>
+                    </li>
+                    <li class="settings__setting">
+                        <span class="settings__icon">
+                            <i class="fas fa-flask"></i>
+                        </span>
+                        <span class="settings__title"> Kakao Lab </span>
+                    </li>
+                    <li class="settings__setting">
+                        <span class="settings__icon">
+                            <i class="fas fa-info-circle"></i>
+                        </span>
+                        <span class="settings__title"> Version </span>
+                    </li>
+                </ul>
+            </section>
+        </main>
 
-    </div>
-  </div>
-
-  <div class="nav">
-    <div>
-      <a href="/screens/friends/html/friends.html"><i class="far fa-user fa-2x"></i></a>
-      <a href="/screens/chat/html/chat.html">
-        <span class="nav__notification">8</span>
-        <i class="far fa-comment fa-2x"></i>
-      </a>
-      <a href="/screens/hashtag/html/hashtag.html"><i class="fas fa-hashtag fa-2x"></i></a>
-      <a href="/screens/setting/html/setting.html"><i class="fas fa-ellipsis-h fa-2x"></i></a>
-    </div>
-  </div>
-</body>
+        <div class="nav">
+            <div>
+                <a href="/screens/friends/html/friends.html"
+                    ><i class="far fa-user fa-2x"></i
+                ></a>
+                <a href="/screens/chat/html/chat.html">
+                    <span class="nav__notification">8</span>
+                    <i class="far fa-comment fa-2x"></i>
+                </a>
+                <a href="/screens/hashtag/html/hashtag.html"
+                    ><i class="fas fa-hashtag fa-2x"></i
+                ></a>
+                <a href="/screens/setting/html/setting.html"
+                    ><i class="fas fa-ellipsis-h fa-2x"></i
+                ></a>
+            </div>
+        </div>
+    </body>
 </html>
